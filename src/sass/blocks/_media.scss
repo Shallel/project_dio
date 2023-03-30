@@ -1,0 +1,105 @@
+@media (max-width: 1200px){
+    br {
+        display: none
+    }
+    .promo {
+        &__header {
+            font-size: 40px;
+        }
+        &__subheader {
+            font-size: 22px;
+        }
+    }
+}
+@media (max-width: 991px){
+    br {
+        display: none
+    }
+    .promo {
+        padding: 21px 30px 93px 30px;
+        &__header {
+            font-size: 37px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__icons {
+            width: 407px;
+        }
+    }
+    .button {
+        &_main {
+        width: 285px;
+        }
+    }
+    .title {
+        font-size: 27px;
+    }
+}
+@media (max-width: 767px) {
+    br {
+        display: none
+    }
+    .promo {
+        &__wrapper {
+            align-items: flex-end;
+            margin-top: 60px;
+        }   
+        &__header {
+            font-size: 37px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+    .title {
+        font-size: 26px;
+    }
+}
+@media (max-width: 575px) {
+    .promo {
+        padding: 21px 33px 93px 33px;
+        &__wrapper {
+            align-items: center;
+            margin-top: 75px;
+        }   
+        &__header {
+            font-size: 37px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+    .header {
+        &__official {
+            display: none;
+        }
+    }
+    .advantages {
+        padding: 50px 0 95px 0;
+        &__wrapper {
+            margin-top: 32px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__item {
+            display: flex;
+            flex-direction: column;
+            margin: 15px 20px 0 20px;
+        }
+        &__subtitle {
+            margin-top: 30px;
+            color: #0d0d0d;
+            font-size: 21px;
+            font-weight: 700;
+        }
+        &__descr {
+            font-size: 18px;
+        }
+        a {
+            color: $main-color;
+            text-decoration: underline;
+        }
+    }
+}
