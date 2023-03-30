@@ -1,7 +1,4 @@
 @media (max-width: 1200px){
-    br {
-        display: none
-    }
     .promo {
         &__header {
             font-size: 40px;
@@ -12,9 +9,6 @@
     }
 }
 @media (max-width: 991px){
-    br {
-        display: none
-    }
     .promo {
         padding: 21px 30px 93px 30px;
         &__header {
@@ -37,9 +31,6 @@
     }
 }
 @media (max-width: 767px) {
-    br {
-        display: none
-    }
     .promo {
         &__wrapper {
             align-items: flex-end;
@@ -58,21 +49,34 @@
 }
 @media (max-width: 575px) {
     .promo {
-        padding: 21px 33px 93px 33px;
+        padding: 21px 12px 93px 12px;
         &__wrapper {
             align-items: center;
             margin-top: 75px;
         }   
         &__header {
-            font-size: 37px;
+            font-size: 24px;
         }
         &__subheader {
-            font-size: 20px;
+            font-size: 21px;
+            text-align: center;
+        }
+        &__icons {
+            width: 330px;
         }
     }
     .header {
         &__official {
             display: none;
+        }
+        &__logo {
+            width: 160px;
+            img {
+                width: 100%;
+            }
+        }
+        &__phone {
+            font-size: 15px;
         }
     }
     .advantages {
@@ -100,6 +104,12 @@
         a {
             color: $main-color;
             text-decoration: underline;
+        }
+    }
+    .button {
+        width: 130px;
+        &_main {
+            width: 205px;
         }
     }
 }
